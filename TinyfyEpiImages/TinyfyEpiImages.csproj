@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContentEvents.cs" />
-    <Compile Include="ICompressedImage.cs" />
-    <Compile Include="PublishEventInitializationModule.cs" />
-    <Compile Include="Tinyfy.cs" />
+    <Compile Include="ThisFolder\ContentEvents.cs" />
+    <Compile Include="ThisFolder\ICompressedImage.cs" />
+    <Compile Include="ThisFolder\PublishEventInitializationModule.cs" />
+    <Compile Include="ThisFolder\Tinyfy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
